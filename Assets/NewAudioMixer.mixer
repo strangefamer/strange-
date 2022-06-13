@@ -68,8 +68,12 @@ AudioMixerController:
   m_EnableSuspend: 1
   m_UpdateMode: 0
   m_ExposedParameters:
+  - guid: a90b1131a9acd434c98f829e092212a3
+    name: MyExposedParam
   - guid: 95d776ec15040bc41904e0d82065dba2
     name: MaeterVlume
+  - guid: 93e25c730c0e8684587918108d5c595d
+    name: MyExposedParam 1
   m_AudioMixerGroupViews:
   - guids:
     - a921b182e46db3448994cb2a0e02a211
@@ -124,6 +128,7 @@ AudioMixerSnapshotController:
   m_SnapshotID: 5483f0002b00d8548b9a761ebd576b19
   m_FloatValues:
     a90b1131a9acd434c98f829e092212a3: -11.000072
+    93e25c730c0e8684587918108d5c595d: -1.8241322
   m_TransitionOverrides: {}
 --- !u!244 &1656325939867020135
 AudioMixerEffectController:
